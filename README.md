@@ -16,25 +16,18 @@ Eco Box is a student-led initiative aimed at raising environmental awareness and
 - **Hosting**: GitHub Pages / Local Deployment (customize based on your setup)
 
 ## 📁 Project Structure
+```
 eco-box/
-
 ├── public/
-
 │   └── index.html
-
 ├── src/
-
 │   ├── components/
-
 │   ├── pages/
-
 │   ├── styles/
-
 │   └── App.js
-
 ├── package.json
-
 └── README.md
+```
 
 ## 💡 Inspiration
 Eco Box was inspired by the growing need to make sustainability more accessible and actionable. We believe that even small changes can lead to big impact when adopted collectively.
