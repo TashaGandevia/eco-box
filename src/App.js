@@ -11,6 +11,7 @@ import SetupVideos from "./pages/HowTo";
 import FAQ from "./components/FAQ";
 import Subscriptions from "./pages/Subscriptions";
 import SignUp from "./pages/SignUp";
+import WhatsInTheBox from "./pages/WhatsInTheBox";
 
 import "./index.css"; // Import styles
 
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/plans" element={<Plans />} />
         <Route path="/products" element={<Products />} />
         <Route path="/videos" element={<SetupVideos />} />
+        <Route path="/whats-in-the-box" element={<WhatsInTheBox />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/subscribe" element={<Subscriptions />} />

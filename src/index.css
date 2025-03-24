@@ -7,13 +7,6 @@ body {
   padding: 0;
 }
 
-/* Centered container */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 /* Navbar Styles */
 .navbar {
   background-color: #2c7a2c; /* Dark Green */
@@ -106,22 +99,7 @@ body {
   background-color: #388e3c;
   color: white;
 }
-/* Hero Section */
-.hero {
-  background-color: #409443; /* Green */
-  color: white;
-  text-align: center;
-  padding: 80px 20px;
-}
 
-.hero h1 {
-  font-size: 3rem;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  margin-top: 10px;
-}
 /* How It Works Section */
 .steps {
   display: flex;
@@ -157,24 +135,6 @@ body {
   border-radius: 10px;
   background-color: white;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Testimonials Section */
-.testimonials {
-  margin-top: 40px;
-}
-
-.testimonial {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.testimonial h4 {
-  margin-top: 10px;
-  font-weight: bold;
 }
 
 /* Call to Action Section */
@@ -416,4 +376,155 @@ body {
   color: #555;
   padding-top: 10px;
   line-height: 1.6;
+}
+
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+
+/* 2-column layout for product list */
+.product-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* 3-column layout for what's in the box note */
+.in-box-note ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.product-list li,
+.in-box-note li {
+  background: #ffffff;
+  border-left: 6px solid #0abf53; /* Green accent */
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  text-align: left;
+  font-weight: 500;
+  transition: transform 0.2s ease, background 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.product-list li:hover,
+.in-box-note li:hover {
+  background-color: #f0fdf4;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .product-list {
+    grid-template-columns: 1fr;
+  }
+
+  .in-box-note ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .in-box-note ul {
+    grid-template-columns: 1fr;
+  }
+}
+.product-list li,
+.in-box-note li {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  font-weight: 500;
+  transition: transform 0.2s ease;
+}
+
+.product-list li:hover,
+.in-box-note li:hover {
+  transform: translateY(-3px);
+  background-color: #c7ffde;
+}
+
+/* QR Section */
+.qr-guide {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.qr-code-sample {
+  width: 150px;
+  height: auto;
+  margin-top: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.qr-code-sample:hover {
+  transform: scale(1.05);
+}
+
+/* Energy Tips */
+.energy-tips {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.energy-tips li {
+  background: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.energy-tips li:hover {
+  background: #e0f7e9;
+}
+
+.selected-tip {
+  background: #d1f3dd !important;
+  font-weight: bold;
+}
+
+.tip-detail {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Referral Card */
+.referral-card {
+  margin-top: 3rem;
+  padding: 1rem;
+  background: #fef6e4;
+  border: 1px solid #f1c40f;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.referral-image {
+  margin-top: 1rem;
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
 }

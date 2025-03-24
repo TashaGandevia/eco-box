@@ -21,6 +21,7 @@ const Navbar = () => {
         <Link to="/videos">Videos</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/faq">FAQ</Link>
+        <Link to="/whats-in-the-box">What's In the Box</Link>
       </div>
     </nav>
   );
