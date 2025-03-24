@@ -17,14 +17,23 @@ Eco Box is a student-led initiative aimed at raising environmental awareness and
 
 ## 📁 Project Structure
 eco-box/
+
 ├── public/
+
 │   └── index.html
+
 ├── src/
+
 │   ├── components/
+
 │   ├── pages/
+
 │   ├── styles/
+
 │   └── App.js
+
 ├── package.json
+
 └── README.md
 
 ## 💡 Inspiration
