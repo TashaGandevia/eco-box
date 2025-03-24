@@ -1,16 +1,6 @@
 import React from "react";
 import "../index.css";
 
-const products = [
-  "Kasa Smart Plug",
-  "Kasa Smart Lightbulb",
-  "Philips Hue Bulb",
-  "Monster Light Strip",
-  "Monster Light Bar",
-  "Kasa Smart Power Strip",
-  "Kasa Smart Light Switch",
-  "Kasa Smart Power Outlet"
-];
 
 const WhatsInTheBox = () => {
   return (
@@ -27,7 +17,6 @@ const WhatsInTheBox = () => {
   <li>🎨 Monster Light Bar</li>
   <li>🔋 Kasa Smart Power Strip</li>
   <li>🔘 Kasa Smart Light Switch</li>
-  <li>⚡ Kasa Smart Power Outlet</li>
   <li> ... and more!</li>
 </ul>
 

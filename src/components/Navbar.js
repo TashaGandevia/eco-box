@@ -19,9 +19,9 @@ const Navbar = () => {
         <Link to="/plans">Plans</Link>
         <Link to="/products">Products</Link>
         <Link to="/videos">Videos</Link>
+        <Link to="/whats-in-the-box">What's In the Box</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/faq">FAQ</Link>
-        <Link to="/whats-in-the-box">What's In the Box</Link>
       </div>
     </nav>
   );
