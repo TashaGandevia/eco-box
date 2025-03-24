@@ -16,7 +16,7 @@ Eco Box is a student-led initiative aimed at raising environmental awareness and
 - **Hosting**: GitHub Pages / Local Deployment (customize based on your setup)
 
 ## 📁 Project Structure
-```
+```bash
 eco-box/
 ├── public/
 │   └── index.html
